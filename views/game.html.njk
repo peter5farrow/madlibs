@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/madlib">
+      <p>
+        Please choose a <strong>person</strong>, a <strong>color</strong>, a
+        <strong>noun</strong>, and an <strong>adjective</strong>.
+      </p>
+
+      <label for="person-input">Person:</label>
+      <input type="text" name="person" id="person-input" />
+
+      <select name="color">
+        <option value="" selected disabled hidden>Color</option>
+        <option value="red">Red</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+      </select>
+
+      <select name="noun">
+        <option value="" selected disabled hidden>Noun</option>
+        <option value="python">Python</option>
+        <option value="brick">Brick</option>
+        <option value="subaru">Subaru</option>
+        <option value="cow">Cow</option>
+      </select>
+
+      <select name="adj">
+        <option value="" selected disabled hidden>Adjective</option>
+        <option value="burly">Burly</option>
+        <option value="sad">Sad</option>
+        <option value="eccentric">Eccentric</option>
+        <option value="wavy">Wavy</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
